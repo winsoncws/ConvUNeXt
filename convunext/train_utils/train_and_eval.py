@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-import train_utils.distributed_utils as utils
+from . import distributed_utils as utils
 from .dice_coefficient_loss import dice_loss, build_target
 
 import math
